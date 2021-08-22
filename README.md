@@ -1,6 +1,6 @@
 # 高空抛物检测
 
-<img src="./images/高空抛物.jpeg" alt="高空抛物" style="zoom:50%;" />
+<img src="./images/高空抛物.jpeg" alt="高空抛物" style="zoom:33%;" />
 
 ## 前言
 
@@ -12,7 +12,7 @@
 
 ## 技术方案
 
-<img src="./images/临时流程图.png" alt="临时流程图" style="zoom:50%;" />
+<img src="./images/临时流程图.jpg" alt="临时流程图" style="zoom:50%;" />
 
 算法的处理流程大致可以分为如下几步：
 
@@ -40,7 +40,7 @@
 
 > 这是当时在布署地随便拍了个安装点
 
-<img src="./images/摄像头安装.jpg" alt="摄像头安装" style="zoom:50%;" />
+<img src="./images/摄像头安装.jpg" alt="摄像头安装" style="zoom:33%;" />
 
 **实际检测：**
 
