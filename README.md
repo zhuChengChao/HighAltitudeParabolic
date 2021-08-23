@@ -36,26 +36,75 @@
 
 在此处放几个实际检测的案例仅供参考
 
-**摄像头的安装**：
+### 摄像头的安装
 
 > 这是当时在布署地随便拍了个安装点
 
 <img src="./images/摄像头安装.jpg" alt="摄像头安装" style="zoom:33%;" />
 
-**实际检测：**
+### 实际检测
 
 > 说明1：下述事件都是被检测到，然后再去下载录像后在本地跑的结果；
 >
 > 说明2：下述事件都是在小区1中发生的事件，该小区的楼层较低，比如容易检测；而还有小区2都是高楼层的检测，由于本人目前不在学校，视频素材都是学校的台式机上，故等回学校了再对事件进行补充。
 
-事件1：一次正常的抛物事件
+**事件1：一次正常的抛物事件**
 
 ![事件1](./images/事件1.gif)
 
-事件2：略高楼层中的一次抛物事件
+**事件2：略高楼层中的一次抛物事件**
 
 ![事件2](./images/事件2.gif)
 
-事件3：下雨天的测试
+**事件3：下雨天的测试**
 
 ![事件3](./images/事件3.gif)
+
+### 误报解决
+
+此处列出几个误报事件，结合并结合正常的抛物事件的轨迹对误报事件进行排除。
+
+**误报事件1：飞鸟**
+
+![鸟-1](C:\Users\ZhuCC\Desktop\高空抛物\HighAltitudeParabolic\images\鸟-1.gif)
+
+**误报事件2：树叶**
+
+![树叶](C:\Users\ZhuCC\Desktop\高空抛物\HighAltitudeParabolic\images\树叶.gif)
+
+**误报事件3：被子**
+
+![被子](C:\Users\ZhuCC\Desktop\高空抛物\HighAltitudeParabolic\images\被子.gif)
+
+**解决方案：**
+
+通过 SOM（自组织映射神经网络） 对不同运动的轨迹进行分析
+
+**SOM网络结构：**
+
+![SOM](C:\Users\ZhuCC\Desktop\高空抛物\HighAltitudeParabolic\images\SOM.webp)
+
+**轨迹展示：**
+
+![轨迹概述](C:\Users\ZhuCC\Desktop\高空抛物\HighAltitudeParabolic\images\轨迹概述.PNG)
+
+
+
+**原始轨迹：**
+
+在验证算法可行性阶段，总共从视频序列中获取了469 条轨迹，分为 4 类：抛物、鸟、树叶、衣服被单。
+
+![原始轨迹](C:\Users\ZhuCC\Desktop\高空抛物\HighAltitudeParabolic\images\原始轨迹.png)
+
+**SOM分类结果：**
+
+![SOM分类结果](C:\Users\ZhuCC\Desktop\高空抛物\HighAltitudeParabolic\images\SOM分类结果.png)
+
+![结果](C:\Users\ZhuCC\Desktop\高空抛物\HighAltitudeParabolic\images\结果.png)
+
+> * 0：抛物；
+> * 1：鸟；
+> * 2：树叶
+> * 3：衣服棉被
+>
+> 效果好到我都震惊:heart:
