@@ -66,15 +66,15 @@
 
 **误报事件1：飞鸟**
 
-![鸟-1](C:\Users\ZhuCC\Desktop\高空抛物\HighAltitudeParabolic\images\鸟-1.gif)
+![鸟-1](./images/鸟-1.gif)
 
 **误报事件2：树叶**
 
-![树叶](C:\Users\ZhuCC\Desktop\高空抛物\HighAltitudeParabolic\images\树叶.gif)
+![树叶](./images/树叶.gif)
 
 **误报事件3：被子**
 
-![被子](C:\Users\ZhuCC\Desktop\高空抛物\HighAltitudeParabolic\images\被子.gif)
+![被子](./images/被子.gif)
 
 **解决方案：**
 
@@ -82,11 +82,11 @@
 
 **SOM网络结构：**
 
-![SOM](C:\Users\ZhuCC\Desktop\高空抛物\HighAltitudeParabolic\images\SOM.webp)
+![SOM](./images/SOM.webp)
 
 **轨迹展示：**
 
-![轨迹概述](C:\Users\ZhuCC\Desktop\高空抛物\HighAltitudeParabolic\images\轨迹概述.PNG)
+![轨迹概述](./images/轨迹概述.PNG)
 
 
 
@@ -94,13 +94,13 @@
 
 在验证算法可行性阶段，总共从视频序列中获取了469 条轨迹，分为 4 类：抛物、鸟、树叶、衣服被单。
 
-![原始轨迹](C:\Users\ZhuCC\Desktop\高空抛物\HighAltitudeParabolic\images\原始轨迹.png)
+![原始轨迹](./images/原始轨迹.png)
 
 **SOM分类结果：**
 
-![SOM分类结果](C:\Users\ZhuCC\Desktop\高空抛物\HighAltitudeParabolic\images\SOM分类结果.png)
+![SOM分类结果](./images/SOM分类结果.png)
 
-![结果](C:\Users\ZhuCC\Desktop\高空抛物\HighAltitudeParabolic\images\结果.png)
+![结果](./images/结果.png)
 
 > * 0：抛物；
 > * 1：鸟；
